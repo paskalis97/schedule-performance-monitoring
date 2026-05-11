@@ -1,8 +1,17 @@
-# Next.js Starter Kit
+# EPC Schedule Performance Monitoring Dashboard
 
-A production-minded Next.js boilerplate for landing pages, portfolios, dashboards, backoffices, games, blogs, and product apps.
+A weekly progress dashboard for Engineering, Procurement, Construction, and Commissioning (EPC) projects. Real-time Schedule Performance Index (SPI) tracking and comprehensive progress monitoring.
 
-Demo: <https://dev-nextjs-starter-kit.vercel.app/>
+## Overview
+
+This dashboard provides:
+- **Weekly Cut-off Slicer** — Track project state at any point in time
+- **Progress Metrics** — Planned vs Actual progress by discipline
+- **Schedule Performance Index (SPI)** — `Actual / Planned` ratio with traffic light status
+- **S-Curve Charts** — Visualize project trajectory against baseline and recovery plans
+- **Real-time Updates** — Data sourced from Supabase
+
+Built as a technical assessment for a Data Analyst role.
 
 ## Stack
 
@@ -20,7 +29,7 @@ Demo: <https://dev-nextjs-starter-kit.vercel.app/>
 ## Getting Started
 
 ```bash
-git clone https://github.com/devinaacs/next-starter-kit.git my-app
+git clone https://github.com/paskalis97/schedule-performance-monitoring.git my-app
 cd my-app
 cp .env.example .env.local
 npm install
@@ -28,6 +37,14 @@ npm run dev
 ```
 
 Open <http://localhost:3000>.
+
+### Prerequisites
+
+Ensure you have the following environment variables in `.env.local`:
+- `NEXT_PUBLIC_SUPABASE_URL` — Your Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` — Your Supabase publishable key
+
+The database is pre-seeded with project data, weekly cutoffs, and historical progress records.
 
 ## Scripts
 

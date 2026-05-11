@@ -2,20 +2,18 @@ import { env } from "@/lib/env";
 import type { NavItem } from "@/types/nav";
 
 export const siteConfig = {
-  name: "Next.js Starter Kit",
+  name: "EPC Schedule Performance Monitoring",
   description:
-    "A production-minded Next.js boilerplate for landing pages, portfolios, dashboards, backoffices, games, blogs, and product apps.",
+    "Weekly progress dashboard for Engineering, Procurement, Construction, and Commissioning (EPC) projects. Real-time SPI tracking and schedule performance monitoring.",
   url: env.NEXT_PUBLIC_APP_URL,
   ogImage: "/og",
-  author: "Open Source",
+  author: "Mikael Prapaskalis",
   mainNav: [
-    { title: "Foundation", href: "#foundation" },
-    { title: "Components", href: "https://ui.shadcn.com/docs/components" },
-    { title: "Docs", href: "https://nextjs.org/docs" },
+    { title: "Dashboard", href: "/" },
+    { title: "Documentation", href: "https://nextjs.org/docs" },
   ] satisfies NavItem[],
   links: {
-    docs: "https://nextjs.org/docs",
-    github: "https://github.com/devinaacs/next-starter-kit",
-    shadcn: "https://ui.shadcn.com/",
+    github: "https://github.com/paskalis97/schedule-performance-monitoring",
+    portfolio: "https://mikaelprapaskalisg.vercel.app/",
   },
 };

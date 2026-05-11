@@ -1,4 +1,5 @@
 import { AppProviders } from "@/components/shared/app-providers";
+import { SiteFooter } from "@/components/layout/site-footer";
 import { metadata } from "@/config/metadata";
 
 import "./globals.css";
@@ -13,7 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="h-full antialiased">
       <body className="flex min-h-full flex-col">
-        <AppProviders>{children}</AppProviders>
+        <AppProviders>
+          {children}
+          <SiteFooter />
+        </AppProviders>
       </body>
     </html>
   );
