@@ -69,7 +69,7 @@ export function GET() {
             width: "max-content",
           }}
         >
-          Open source
+          EPC Schedule Performance
         </div>
 
         <div
@@ -105,7 +105,7 @@ export function GET() {
               maxWidth: 880,
             }}
           >
-            Start building today
+            Weekly EPC progress dashboard
           </h1>
           <p
             style={{
@@ -117,8 +117,8 @@ export function GET() {
               maxWidth: 910,
             }}
           >
-            Clone the repository, install dependencies, and start shipping. No
-            configuration, no hassle.
+            Monitor schedule performance, SPI, and cumulative progress for all
+            EPC disciplines at each weekly cutoff.
           </p>
         </div>
 
