@@ -56,24 +56,6 @@ export function GET() {
 
         <div
           style={{
-            border: "1px solid rgba(216, 173, 120, 0.35)",
-            color: "#d8ad78",
-            display: "flex",
-            fontFamily: "sans-serif",
-            fontSize: 18,
-            fontWeight: 800,
-            letterSpacing: "0.24em",
-            padding: "16px 24px",
-            position: "relative",
-            textTransform: "uppercase",
-            width: "max-content",
-          }}
-        >
-          EPC Schedule Performance
-        </div>
-
-        <div
-          style={{
             display: "flex",
             flexDirection: "column",
             gap: 24,
@@ -120,23 +102,6 @@ export function GET() {
             Monitor schedule performance, SPI, and cumulative progress for all
             EPC disciplines at each weekly cutoff.
           </p>
-        </div>
-
-        <div
-          style={{
-            alignItems: "center",
-            border: "1px solid rgba(216, 173, 120, 0.3)",
-            bottom: 52,
-            color: "#d8ad78",
-            display: "flex",
-            fontFamily: "monospace",
-            fontSize: 24,
-            left: 72,
-            padding: "18px 24px",
-            position: "absolute",
-          }}
-        >
-          npm install && npm run dev
         </div>
       </div>
     </div>,
